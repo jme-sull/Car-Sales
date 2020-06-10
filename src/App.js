@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux'
 
+
 import Header from './components/Header';
 import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
@@ -32,4 +33,5 @@ const mapStateToProps = state => {
 
 }
 
-export default connect(mapStateToProps, {} )(App);
+//connect exported component 
+export default connect(mapStateToProps, {})(App);
